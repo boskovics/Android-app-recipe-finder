@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Recipe Search App</string>
+    <string name="search_recipes">Search recipes</string>
+    <string name="search_ingredients_here">Search ingredients here</string>
+    <string name="deselect">Click on an ingredient on the list below to deselect it.</string>
+    <string name="guide">Here are the steps required for making this recipe:</string>
+    <string name="image">IMAGE</string>
+</resources>
