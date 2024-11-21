@@ -1,0 +1,18 @@
+Koraci u funkcionisanju aplikacije:
+
+1. Prikaz početnog ekrana na kome postoji dugme za pretragu recepata,
+	AutoCompleteTextView za prikaz dostupnih sastojaka i lista koja se
+  	popunjava pritiskom na neki od sastojaka iz padajuće liste. Pritiskom
+	na neki od sastojaka iz liste izabranih, sastojak se uklanja iz liste.
+	(U slučaju da se pritisne na dugme dok je lista izabranih sastojaka prazna,
+	prikazaće se 20 random/najpopularnijih recepata.)
+
+2. Prikaz liste recepata koja je dohvaćena asinhronim pozivom uzimajući u obzir
+	da recepti sadrže prethodno izabrane sastojke, gde svaka stavka
+	sadrži sliku recepta, naziv i opis. Lista sadrži maksimalno 20 recepata
+	osim u slučaju da API poziv vrati manje rezultata (ako je rezultat prazna
+	lista, na ekranu će se ispisati Toast poruka).
+
+3. Prikaz detaljnijeg opisa recepta izabranog klikom na neki od recepata iz prethodne
+	aktivnosti. Kao dodatak, ispisuje se celokupan opis recepta kao i koraci po
+	kojima se sprema izabran recept.
